@@ -9,7 +9,7 @@
 @base <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl> .
 
 <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl> rdf:type owl:Ontology ;
-                                                                                         owl:imports <https://raw.githubusercontent.com/human-ontology/main/human.owl> .
+                                                                                         owl:imports <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl> .
 
 #################################################################
 #    Object Properties
