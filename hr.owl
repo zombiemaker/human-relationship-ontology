@@ -393,6 +393,12 @@
                                                rdfs:label "organization"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_68270900_9a1d_4d5b_a499_3fff4b0c1a31
+:OWLClass_68270900_9a1d_4d5b_a499_3fff4b0c1a31 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 ;
+                                               rdfs:label "human society"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_71ce47d0_5178_4e65_9a2e_4cd5552a9150
 :OWLClass_71ce47d0_5178_4e65_9a2e_4cd5552a9150 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_a673590e_a205_45f2_9730_365ae6175275 ;
@@ -492,7 +498,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970
 :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_181e658c_c1f5_4580_8f68_c20589eb69ad> ;
-                                               rdfs:label "collection of human"@en .
+                                               rdfs:label "collection of humans"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_e47bb6bf_bd39_4631_8d47_c60fe49d0279
@@ -523,6 +529,12 @@
 :OWLClass_e771fc18_aae4_4e30_a184_dc52619f80aa rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1642d1d0_908b_4a05_a198_4746af85aebb ;
                                                rdfs:label "granddaughter"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_f5411f96_ae95_4304_80a0_4c472e0ff5b5
+:OWLClass_f5411f96_ae95_4304_80a0_4c472e0ff5b5 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 ;
+                                               rdfs:label "human community"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/hr.owl#OWLClass_f5e59b0d_1a9b_4852_be15_5c1376986b0d
