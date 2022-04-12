@@ -38,6 +38,24 @@
                                                         rdfs:label "mother side brother-niece relationship"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_101fe825_f3c0_466f_8a94_623a11978992
+:OWLObjectProperty_101fe825_f3c0_466f_8a94_623a11978992 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_50b2aa2c_6540_47d0_bbcb_2746a06a100d ;
+                                                        rdfs:label "step father-step daughter relationship"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_17513861_6bbb_4d22_a6ce_7bd21cdad246
+:OWLObjectProperty_17513861_6bbb_4d22_a6ce_7bd21cdad246 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_50b2aa2c_6540_47d0_bbcb_2746a06a100d ;
+                                                        rdfs:label "step father-step son relationship"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_1d3ce783_8dd5_47a1_a8e4_74ad95766463
+:OWLObjectProperty_1d3ce783_8dd5_47a1_a8e4_74ad95766463 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_af22851c_49b7_49e2_a3f7_87b555b18835 ;
+                                                        rdfs:label "step parent-step child relationship"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_1dca8408_6965_4e4d_80ab_aa5c6d0aa495
 :OWLObjectProperty_1dca8408_6965_4e4d_80ab_aa5c6d0aa495 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_870646e6_2d37_416e_b63f_707ab01db89d ;
@@ -93,10 +111,22 @@
                                                         rdfs:label "mother side grandfather-granddaughter relationship"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_50b2aa2c_6540_47d0_bbcb_2746a06a100d
+:OWLObjectProperty_50b2aa2c_6540_47d0_bbcb_2746a06a100d rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_1d3ce783_8dd5_47a1_a8e4_74ad95766463 ;
+                                                        rdfs:label "step father-step child relationship"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_5e984624_c32f_4cb2_adfb_04816dc14ea8
 :OWLObjectProperty_5e984624_c32f_4cb2_adfb_04816dc14ea8 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_e779c657_94f6_4c5d_a715_fcc3a95faffc ;
                                                         rdfs:label "father side sister-nephew relationship"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_673eb612_5793_48ac_8bd5_873fc53a54e6
+:OWLObjectProperty_673eb612_5793_48ac_8bd5_873fc53a54e6 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_1d3ce783_8dd5_47a1_a8e4_74ad95766463 ;
+                                                        rdfs:label "step mother-step child relationship"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_68e7785b_a197_4c00_be91_ce8dffe260e4
@@ -141,6 +171,12 @@
                                                         rdfs:label "mother-daughter relationship"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_793f0d57_6535_42e2_91fe_ae0ea2cc83bf
+:OWLObjectProperty_793f0d57_6535_42e2_91fe_ae0ea2cc83bf rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_673eb612_5793_48ac_8bd5_873fc53a54e6 ;
+                                                        rdfs:label "step mother-step son relationship"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_7f5391e8_73fe_48e3_a526_c9e4cb9c7886
 :OWLObjectProperty_7f5391e8_73fe_48e3_a526_c9e4cb9c7886 rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_cc78cc23_f738_42a7_82bd_cafe195b9cd9 ;
@@ -163,6 +199,12 @@
 :OWLObjectProperty_8c9ea4e7_2767_4984_8ea4_35d36fea186e rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_6cc9dd0e_9ddc_44ae_a992_825ac65dd056 ;
                                                         rdfs:label "father side sister-niece relationship"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_90888059_8acf_4c49_b488_dd3f59b78bc7
+:OWLObjectProperty_90888059_8acf_4c49_b488_dd3f59b78bc7 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_673eb612_5793_48ac_8bd5_873fc53a54e6 ;
+                                                        rdfs:label "step mother-step daughter relationship"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_97ab0c7c_60c2_4b1d_b1a4_d7e6c3fad24e
@@ -198,7 +240,7 @@
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_ac27d3f8_7cc7_4c4d_98bd_cdcec03c2dfe
 :OWLObjectProperty_ac27d3f8_7cc7_4c4d_98bd_cdcec03c2dfe rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf :OWLObjectProperty_af22851c_49b7_49e2_a3f7_87b555b18835 ;
-                                                        rdfs:label "husband-wife relationsip"@en .
+                                                        rdfs:label "husband-wife relationship"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLObjectProperty_af22851c_49b7_49e2_a3f7_87b555b18835
@@ -278,6 +320,12 @@
                                                rdfs:label "father"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_0b65d793_c1c5_4187_a824_5ea826bb05ca
+:OWLClass_0b65d793_c1c5_4187_a824_5ea826bb05ca rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d113ba8d_0938_4e25_b449_42fa0f324676 ;
+                                               rdfs:label "son"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_1093a92a_3480_47af_b1eb_121bf099b42b
 :OWLClass_1093a92a_3480_47af_b1eb_121bf099b42b rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 ;
@@ -326,6 +374,12 @@
                                                rdfs:label "father side aunt"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_2d9575fd_1432_4f63_957c_aec70b885557
+:OWLClass_2d9575fd_1432_4f63_957c_aec70b885557 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
+                                               rdfs:label "step parent"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_2ee2b527_35c0_4596_8818_f918dc068664
 :OWLClass_2ee2b527_35c0_4596_8818_f918dc068664 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
@@ -366,6 +420,12 @@
 :OWLClass_501e6411_5f46_4b51_9a82_c578660fb122 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_b8849f7c_f5c4_4a25_b21e_9057d4d87493 ;
                                                rdfs:label "father side cousin"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_58df7377_0236_448e_b15a_49cbcc4dc4e6
+:OWLClass_58df7377_0236_448e_b15a_49cbcc4dc4e6 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_2d9575fd_1432_4f63_957c_aec70b885557 ;
+                                               rdfs:label "step father"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_59289185_e730_466e_97b1_7d7d75ece951
@@ -417,6 +477,12 @@
                                                rdfs:label "sport team"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_7df4684b_fed7_4d42_b672_e25f5df397ac
+:OWLClass_7df4684b_fed7_4d42_b672_e25f5df397ac rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b7a95d52_be1d_457e_869f_c69c7bf14c7c ;
+                                               rdfs:label "step son"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_8e9d503e_bafa_439b_a426_4feee6b26056
 :OWLClass_8e9d503e_bafa_439b_a426_4feee6b26056 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_241bba18_9392_4742_9212_f028ef965aa7 ;
@@ -445,6 +511,24 @@
 :OWLClass_a7047167_ec2e_4003_a855_366c784f7e53 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_dfe679c7_e293_43a3_8c0a_30b0e5ee7353 ;
                                                rdfs:label "grandmother"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_ada3a08c_a87e_4a2c_a962_e7c8f87a9c9b
+:OWLClass_ada3a08c_a87e_4a2c_a962_e7c8f87a9c9b rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d113ba8d_0938_4e25_b449_42fa0f324676 ;
+                                               rdfs:label "daughter"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_b13242a2_f634_4db4_960f_a67958d7df4d
+:OWLClass_b13242a2_f634_4db4_960f_a67958d7df4d rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_b7a95d52_be1d_457e_869f_c69c7bf14c7c ;
+                                               rdfs:label "step daughter"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_b7a95d52_be1d_457e_869f_c69c7bf14c7c
+:OWLClass_b7a95d52_be1d_457e_869f_c69c7bf14c7c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
+                                               rdfs:label "step child"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_b8849f7c_f5c4_4a25_b21e_9057d4d87493
@@ -481,6 +565,12 @@
 :OWLClass_cf87d3f0_0c12_4383_b9ce_6685ee59e603 rdf:type owl:Class ;
                                                rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_326318f8_ca30_48b6_9850_65fc56694abd> ;
                                                rdfs:label "human-human relationship role"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_d113ba8d_0938_4e25_b449_42fa0f324676
+:OWLClass_d113ba8d_0938_4e25_b449_42fa0f324676 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
+                                               rdfs:label "child"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_d8ec67f3_584a_42c8_984f_7d2a87a91d72
@@ -541,6 +631,12 @@
 :OWLClass_f5e59b0d_1a9b_4852_be15_5c1376986b0d rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
                                                rdfs:label "sibling"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_fb2b4cc8_90c0_42c3_b2a9_dffa08923dec
+:OWLClass_fb2b4cc8_90c0_42c3_b2a9_dffa08923dec rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_2d9575fd_1432_4f63_957c_aec70b885557 ;
+                                               rdfs:label "step mother"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_fc9bc500_223d_4b2e_b3f4_312a6332a1ce
