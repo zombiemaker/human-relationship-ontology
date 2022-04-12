@@ -4,6 +4,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix zmhuman: <https://raw.githubusercontent.com/zombiemaker/human-ontology/main/human.owl> .
+@prefix zmmetaverse: <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl> .
 @base <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl> .
 
 <https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl> rdf:type owl:Ontology ;
