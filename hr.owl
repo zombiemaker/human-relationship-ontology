@@ -394,6 +394,12 @@
                                                rdfs:label "sister"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_35e21a60_f671_40ab_8e80_32d79c5fcf40
+:OWLClass_35e21a60_f671_40ab_8e80_32d79c5fcf40 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_72de8cf5_d976_43d3_bab2_7c2932f7849a> ;
+                                               rdfs:label "human-to-human interaction"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_363c2ec5_ef1d_4652_ae52_8977ff165aac
 :OWLClass_363c2ec5_ef1d_4652_ae52_8977ff165aac rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_1d5836bb_054b_4ca3_90fd_36a466a4cb44 ;
@@ -442,6 +448,12 @@
                                                rdfs:label "wife"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_5ee4080b_7c18_48ad_adb4_584db4c7abe3
+:OWLClass_5ee4080b_7c18_48ad_adb4_584db4c7abe3 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_332c872e_9f5d_43c1_b2b9_19dbaba6fc1b> ;
+                                               rdfs:label "category of human relationship"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_635bf892_00dd_4ffa_90cd_fb21a5217515
 :OWLClass_635bf892_00dd_4ffa_90cd_fb21a5217515 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_becf4f72_4179_4556_be23_e95962f5debf ;
@@ -459,6 +471,12 @@
 :OWLClass_68270900_9a1d_4d5b_a499_3fff4b0c1a31 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 ;
                                                rdfs:label "human society"@en .
+
+
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_70c30ca3_17de_48ba_85ca_e21b59ba62d3
+:OWLClass_70c30ca3_17de_48ba_85ca_e21b59ba62d3 rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_9c491b47_8f5d_4e47_9067_edd4c876109d> ;
+                                               rdfs:label "human-to-human interaction role"@en .
 
 
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_71ce47d0_5178_4e65_9a2e_4cd5552a9150
