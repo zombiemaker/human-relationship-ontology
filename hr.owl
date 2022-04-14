@@ -460,6 +460,12 @@
                                                rdfs:label "human-team relationship role"@en .
 
 
+###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_63f43699_502b_4265_83cf_7c497dac909b
+:OWLClass_63f43699_502b_4265_83cf_7c497dac909b rdf:type owl:Class ;
+                                               rdfs:subClassOf <https://raw.githubusercontent.com/zombiemaker/metaverse-ontology/main/metaverse.owl#OWLClass_fc38f31c_e055_4b18_82f4_551916245567> ;
+                                               rdfs:label "categorization scheme for human relationships"@en .
+
+
 ###  https://raw.githubusercontent.com/zombiemaker/human-relationship-ontology/main/hr.owl#OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1
 :OWLClass_64a536f4_78cf_4176_8e3b_7af76be3fbb1 rdf:type owl:Class ;
                                                rdfs:subClassOf :OWLClass_e0f74cc4_fb20_47a6_be08_3d61c44f1970 ;
